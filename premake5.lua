@@ -9,6 +9,7 @@ project "freetype"
 	{
 		"src/**.h",
 		"src/**.cpp",
+		"src/**.c",
 		
 		"include/**.h"
 	}
@@ -17,6 +18,12 @@ project "freetype"
 	{
 		"include"
 	}
+
+	defines 
+    {
+        "FT2_BUILD_LIBRARY"
+    }
+
 
 	filter "system:windows"
 		systemversion "latest"
