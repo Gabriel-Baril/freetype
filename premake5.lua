@@ -19,8 +19,8 @@ project "freetype"
 		"src/gzip/infcodes.c",
 		"src/gzip/infcodes.h",
 		"src/gzip/inflate.c",
-		"src/Izw/ftzopen.h",
-		"src/Izw/ftzopen.c",
+		"src/lzw/ftzopen.h",
+		"src/lzw/ftzopen.c",
 		"src/tools/ftrandom/ftrandom.c"
 	}
 
