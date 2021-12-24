@@ -21,7 +21,10 @@ project "freetype"
 		"src/gzip/inflate.c",
 		"src/lzw/ftzopen.h",
 		"src/lzw/ftzopen.c",
-		"src/tools/ftrandom/ftrandom.c"
+		"src/tools/ftrandom/ftrandom.c",
+		"src/base/ftbase.c",
+		"src/autofit/autofit.c",
+		"src/pshinter/pshinter.c"
 	}
 
 	includedirs
