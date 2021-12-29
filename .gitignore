@@ -6,5 +6,12 @@ subprojects/*
 !subprojects/*.wrap
 /tests/data/*
 
+# Visual Studio temp files
+*.sln
+*.vcxproj.*
+*.vcxproj
+
+# Hedron temp files & folders
+imgui.ini
 hdr-bin/
 hdr-bin-int/
