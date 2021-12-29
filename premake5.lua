@@ -2,8 +2,8 @@ project "freetype"
 	kind "StaticLib"
 	language "C++"
 
-	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
-	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
+    targetdir (bin_dir .. output_dir .. "/%{prj.name}")      -- Output dir for our binaries (.exe, .lib, .dll ...)
+    objdir    (bin_int_dir  .. output_dir .. "/%{prj.name}") -- Output dir for our object file (.obj)
 
 	files
 	{
